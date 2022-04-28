@@ -198,7 +198,7 @@ drawmenu(void)
 {
 	unsigned int curpos;
 	struct item *item;
-	int x = 0, y = 0, fh = drw->fonts->h, w;
+	int x = 0, y = 0, w;
  char *censort;
 
 	drw_setscheme(drw, scheme[SchemeNorm]);
@@ -1019,4 +1019,3 @@ main(int argc, char *argv[])
 
 	return 1; /* unreachable */
 }
-
